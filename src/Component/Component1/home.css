@@ -1,0 +1,66 @@
+.home{
+    
+    text-align: center;
+    justify-content: center;
+    padding-top: 70px;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-bottom: 250px;
+    align-items: center;
+    margin-top: 0;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    background-image: url('https://img.freepik.com/premium-photo/landscape-view-tea-plantation-munnar-kerala-indiaxa_129479-1972.jpg?w=900');
+    background-position: center;
+    background-color: grey;
+    background-blend-mode: multiply;
+    
+}
+.main{
+    margin-top: 1px;
+    height: fit-content;
+    padding-bottom: 10px;
+    
+    
+    
+}
+
+.head{
+    font-size: 6rem;
+    font-weight: bold;
+}
+.head2{
+    font-size: 1.6rem;
+    justify-content: center;
+    padding: 1rem;
+}
+
+@media screen and (max-width: 750px) {
+        .head{
+            font-size: 3rem;
+        }
+        .head2{
+                font-size:0.9rem;
+        }
+        
+    }
+@media screen and (max-width: 500px) {
+        .head{
+            font-size: 3rem;
+        }
+        .head2{
+                font-size:0.9rem;
+        }
+        
+    }
+
+@media screen and (max-width: 420px) {
+        .head{
+            font-size: 2rem;
+        }
+        .head2{
+            font-size:0.8rem;
+        }
+    }

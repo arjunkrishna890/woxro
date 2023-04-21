@@ -1,0 +1,56 @@
+.main{
+    justify-content: space-between;
+}
+@media screen and (min-width: 946px) {
+    .main{
+        display: flex;
+        
+    }
+    .phone{
+        display: block;
+    }
+    .item{
+        display:contents
+    }
+
+}
+.outer{
+    background-color: black;
+    padding: 5rem 2rem;
+    background-image: url('https://woxro.com/public/assets/png/woxroglobe.png');
+    background-repeat: no-repeat;
+    margin-top: 3rem;
+}
+h2{
+    color: white;
+    max-width: 500px;
+    font-weight: 900;
+}
+.item{
+    justify-content: space-between;
+    
+}
+.button{
+    background-color: black;
+    border: 1.2px solid white;
+    padding: 2px 0.316rem;
+    font-size: 13px;
+    color: white;
+    margin: 5px;
+    margin-right: 1rem;
+    width: 10rem;
+    height: 3.8rem;
+    border-radius: 7px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    font-weight: 450;
+    letter-spacing:1px;
+}
+.phone :hover{
+    background-color: white;
+    color: black;
+}
+
+

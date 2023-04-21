@@ -1,0 +1,12 @@
+.navbar2{
+    padding-top: 10px;
+    justify-content: space-evenly;
+    
+}
+@media screen and (max-width: 946px) {
+    .navbar2{
+        display: none;
+    }
+    
+}
+
